@@ -4,12 +4,12 @@ function calculate () {
     if (a == "" || b == "") {
         alert("You should put two numbers!")
     } else {
-        add(a, b);
-        sub1(a, b);
-        sub2(a, b);
-        multiply(a, b);
-        div1(a, b);
-        div2(a, b);
+        add (a, b);
+        sub1 (a, b);
+        sub2 (a, b);
+        multiply (a, b);
+        div1 (a, b);
+        div2 (a, b);
         square1 (a, b);
         square2 (a, b);
         divisors (a, "divisors-a-result");
