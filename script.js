@@ -37,12 +37,12 @@ function multiply (a, b) {
 
 function div1 (a, b) {
     let divOneResult = a / b;
-    document.getElementById("div1-result").value = divOneResult;
+    document.getElementById("div1-result").value = divOneResult.toFixed(2);
 }
 
 function div2 (a, b) {
     let divTwoResult = b / a;
-    document.getElementById("div2-result").value = divTwoResult;
+    document.getElementById("div2-result").value = divTwoResult.toFixed(2);
 }
 
 function square1 (a, b) {
