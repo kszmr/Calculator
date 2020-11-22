@@ -17,42 +17,42 @@ function calculate () {
 
 function add (a, b) {
     let sum = a + b;
-    document.getElementById("sum-result").value = sum.toFixed(2);
+    document.getElementById("sum-result").value = sum;
 }
 
 function sub1 (a, b) {
     let subOneResult = a - b;
-    document.getElementById("sub1-result").value = subOneResult.toFixed(2);
+    document.getElementById("sub1-result").value = subOneResult;
 }
 
 function sub2 (a, b) {
     let subTwoResult = b - a;
-    document.getElementById("sub2-result").value = subTwoResult.toFixed(2);
+    document.getElementById("sub2-result").value = subTwoResult;
 }
 
 function multiply (a, b) {
     let multi = a * b;
-    document.getElementById("multi-result").value = multi.toFixed(2);
+    document.getElementById("multi-result").value = multi;
 }
 
 function div1 (a, b) {
     let divOneResult = a / b;
-    document.getElementById("div1-result").value = divOneResult.toFixed(2);
+    document.getElementById("div1-result").value = divOneResult;
 }
 
 function div2 (a, b) {
     let divTwoResult = b / a;
-    document.getElementById("div2-result").value = divTwoResult.toFixed(2);
+    document.getElementById("div2-result").value = divTwoResult.;
 }
 
 function square1 (a, b) {
     let squareOneResult = a * a;
-    document.getElementById("square-a-result").value = squareOneResult.toFixed(2);
+    document.getElementById("square-a-result").value = squareOneResult;
 }
 
 function square2 (a, b) {
     let squareTwoResult = b * b;
-    document.getElementById("square-b-result").value = squareTwoResult.toFixed(2);
+    document.getElementById("square-b-result").value = squareTwoResult;
 }
 
 document.getElementById("calculate").addEventListener("click", calculate);
