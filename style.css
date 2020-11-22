@@ -1,0 +1,78 @@
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    background-color: #effffb;
+    color: #272727;
+}
+
+main {
+    margin: 0 auto;
+    width: 25em;
+}
+
+.row {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    }
+
+.col {
+    height: 50px;
+    padding:0.3em;
+    }
+
+h1 {
+    font-size: 3em;
+    color: #206a5d;
+    text-shadow: 2px 6px #ccf0e9;
+    }
+
+h2 {
+    color: #206a5d;
+}
+
+label {
+    font-weight: 300;
+    color: #272727;
+    }
+    
+input {
+    font-family: 'Courier New';
+    width: 8em;
+    outline: none;
+    border: solid 1px #81b214;
+    background: #fff;
+    border-radius: 1em;
+    box-shadow: 2px 4px #bfdcae;
+    margin-right: 35px;
+    }
+
+input::placeholder {
+    color: #d9d9d9;
+    font-family: 'Exo 2', sans-serif;
+}
+
+button {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 800;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+    float: right;
+    color: #272727;
+    padding: 0.5em;
+    width: 10em;
+    outline: none;
+    border-radius: 1em;
+    border: solid 2px #4a660b;
+    background: #81b214;
+    box-shadow: 4px 8px #4a660b;
+}
+
+button:hover {
+    border: solid 2px #81b214;
+    background: #bceb51;
+    box-shadow: 4px 8px #81b214;
+}

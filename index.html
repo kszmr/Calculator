@@ -4,9 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <title>Super Calculator</title>
 </head>
 <body>
+    <main>
+        <div class="calculator">
+            <h1>Super Calculator</h1>
+            <label for="first-number">Num (a)</label>
+            <input type="text" id="number-a" name="numbers" placeholder="ex.: 2">
+            <label for="first-number">Num (b)</label>
+            <input type="text" id="number-b" name="numbers"  placeholder="ex.: 4"><br>
+                <h2>Results</h2>
+                <div class="row">
+                    <div class="col">
+                        <label for="first-number">(a + b)</label><br>
+                        <input type="text" id="sum-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(a - b)</label><br>
+                        <input type="text" id="sub1-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(b - a)</label><br>
+                        <input type="text" id="numbers sub2-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(a x b)</label><br>
+                        <input type="text" id="numbers multi-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(a &#247; b)</label><br>
+                        <input type="text" id="numbers div1-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(b &#247; a)</label><br>
+                        <input type="text" id="numbers div2-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(a²)</label><br>
+                        <input type="text" id="numbers square-a-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(b²)</label><br>
+                        <input type="text" id="numbers square-b-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">Divisors (a)</label><br>
+                        <input type="text" id="numbers divisors-a-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">Divisors (b)  </label><br>
+                        <input type="text" id="numbers divisors-b-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(a!)</label><br>
+                        <input type="text" id="numbers factorial-a-result" name="numbers">
+                    </div>
+                    <div class="col">
+                        <label for="first-number">(b!)</label><br>
+                        <input type="text" id="numbers factorial-b-result" name="numbers">
+                    </div>
+                </div>
+                <button type="button" id="calculate">Calculate!</button>
+            </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
