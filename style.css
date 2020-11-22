@@ -1,14 +1,14 @@
 body {
+    background: #effffb;
     font-family: 'Exo 2', sans-serif;
     font-weight: 300;
     font-size: 1.1em;
-    background-color: #effffb;
     color: #272727;
 }
 
 main {
     margin: 0 auto;
-    width: 25em;
+    width: 70em;
 }
 
 .row {
@@ -28,11 +28,13 @@ h1 {
     font-size: 3em;
     color: #206a5d;
     text-shadow: 2px 6px #ccf0e9;
+    margin-left: 6.6em;
+    width: 10em;
     }
 
 div .outer-cont {
     display: flex;
-    width: 15em;
+    width: 50em;
     margin: 0 auto;
 }
 
@@ -41,20 +43,28 @@ div .outer-cont {
     align-items: center;
 }
 
+.wrap {
+    margin-top: 4em;
+}
+
 h2 {
     color: #206a5d;
+    margin-left: 1em;
+    font-size: 1.7em
 }
 
 label {
-    font-weight: 300;
-    color: #272727;
+    font-weight: 400;
+    font-size: 0.75em;
+    color: #848484;
     padding-left: 10px;
     }
     
 input {
-    font-family: 'Courier New';
+    font-family: 'Share Tech Mono', monospace;
     font-size: 1em;
-    width: 8em;
+    color: #272727;
+    width: 20em;
     outline: none;
     border: solid 1px #81b214;
     background: #fff;
@@ -71,7 +81,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 input::placeholder {
     color: #d9d9d9;
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 button {
@@ -80,9 +90,10 @@ button {
     font-size: 1.1em;
     letter-spacing: 0.2em;
     float: right;
+    margin-right: 2.6em;
     color: #272727;
     padding: 0.5em;
-    width: 10em;
+    width: 15em;
     outline: none;
     border-radius: 1em;
     border: solid 2px #4a660b;
@@ -94,4 +105,11 @@ button:hover {
     border: solid 2px #81b214;
     background: #bceb51;
     box-shadow: 4px 8px #81b214;
+}
+
+button:active {
+    border: solid 2px #111;
+    background: #444;
+    box-shadow: 4px 8px #111;
+    color: white;
 }
