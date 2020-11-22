@@ -30,6 +30,17 @@ h1 {
     text-shadow: 2px 6px #ccf0e9;
     }
 
+div .outer-cont {
+    display: flex;
+    width: 15em;
+    margin: 0 auto;
+}
+
+.cont-input {
+    padding-right: 0.7em;
+    align-items: center;
+}
+
 h2 {
     color: #206a5d;
 }
@@ -37,17 +48,25 @@ h2 {
 label {
     font-weight: 300;
     color: #272727;
+    padding-left: 10px;
     }
     
 input {
     font-family: 'Courier New';
+    font-size: 1em;
     width: 8em;
     outline: none;
     border: solid 1px #81b214;
     background: #fff;
     border-radius: 1em;
     box-shadow: 2px 4px #bfdcae;
-    margin-right: 35px;
+    text-align: center;
+    }
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
     }
 
 input::placeholder {
