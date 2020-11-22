@@ -17,22 +17,22 @@ function calculate () {
 
 function add (a, b) {
     let sum = a + b;
-    document.getElementById("sum-result").value = sum;
+    document.getElementById("sum-result").value = sum.toFixed(2);
 }
 
 function sub1 (a, b) {
     let subOneResult = a - b;
-    document.getElementById("sub1-result").value = subOneResult;
+    document.getElementById("sub1-result").value = subOneResult.toFixed(2);
 }
 
 function sub2 (a, b) {
     let subTwoResult = b - a;
-    document.getElementById("sub2-result").value = subTwoResult;
+    document.getElementById("sub2-result").value = subTwoResult.toFixed(2);
 }
 
 function multiply (a, b) {
     let multi = a * b;
-    document.getElementById("multi-result").value = multi;
+    document.getElementById("multi-result").value = multi.toFixed(2);
 }
 
 function div1 (a, b) {
@@ -47,12 +47,12 @@ function div2 (a, b) {
 
 function square1 (a, b) {
     let squareOneResult = a * a;
-    document.getElementById("square-a-result").value = squareOneResult;
+    document.getElementById("square-a-result").value = squareOneResult.toFixed(2);
 }
 
 function square2 (a, b) {
     let squareTwoResult = b * b;
-    document.getElementById("square-b-result").value = squareTwoResult;
+    document.getElementById("square-b-result").value = squareTwoResult.toFixed(2);
 }
 
 document.getElementById("calculate").addEventListener("click", calculate);
